@@ -19,7 +19,6 @@ use mongodb::error::Error as MongoError;
 
 // les différents modules qui correspondent aux sous-dossiers
 mod db;
-//mod models;
 mod handlers;
 mod errors;
 
@@ -68,7 +67,7 @@ async fn main() -> std::io::Result<()> {
         web::Data::new(
         Mutex::new(
             AppState{
-                    app_name: String::from("Application de Léon en Actix"),
+                    app_name: String::from("Application Actix MongoDb"),
                     conn: new_conn,
             })
         );
