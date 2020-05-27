@@ -2,7 +2,7 @@
 [package]
 name = "client"
 version = "0.1.0"
-authors = ["Léon GENGOUX <email@address.com>"]
+authors = ["LéonGGX <email@address.com>"]
 edition = "2018"
 
 [lib]
