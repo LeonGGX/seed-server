@@ -1,4 +1,4 @@
-// shared/src/db/db_mongo.rs
+// server/src/db_mongo.rs
 
 use bson::oid::ObjectId;
 use bson::{doc, from_bson, to_bson, Bson, Document};
