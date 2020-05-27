@@ -1,4 +1,4 @@
-// src/handlers/person_handlers.rs
+// src/person_handlers.rs
 use std::sync::Mutex;
 
 use actix_web::{web, HttpResponse, Responder};
