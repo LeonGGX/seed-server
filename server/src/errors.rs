@@ -1,4 +1,4 @@
-// shared/src/errors/errors.rs
+// server/src/errors.rs
 
 use bson::{
     oid::Error as BsonOidError, DecoderError as BsonDecoderError, EncoderError as BsonEncoderError,
