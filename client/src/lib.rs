@@ -5,7 +5,7 @@ use seed::{
     *,
     prelude::*,
 };
-use shared::models::person::{ListPersons, Person};
+use shared::person::{ListPersons, Person};
 
 struct Model {
     pub data: ListPersons,
