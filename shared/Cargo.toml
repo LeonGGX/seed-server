@@ -3,7 +3,7 @@
 [package]
 name = "shared"
 version = "0.1.0"
-authors = ["LGGX <email@address.com>"]
+authors = ["LeonGGX <email@address.com>"]
 edition = "2018"
 
 [dependencies]
