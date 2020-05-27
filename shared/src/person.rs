@@ -1,4 +1,4 @@
-// shared/src/models/person.rs
+// shared/src/person.rs
 
 use core::fmt;
 use serde::export::Formatter;
