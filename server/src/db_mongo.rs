@@ -4,7 +4,7 @@ use bson::oid::ObjectId;
 use bson::{doc, from_bson, to_bson, Bson, Document};
 
 use crate::errors::MyError;
-use crate::person::{InsertablePers, Person};
+use shared::{InsertablePers, Person};
 
 use mongodb::{Client, Collection};
 use r2d2::PooledConnection;
