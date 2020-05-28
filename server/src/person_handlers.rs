@@ -5,7 +5,7 @@ use actix_web::{web, HttpResponse, Responder};
 
 use crate::db_mongo;
 use crate::AppState;
-use shared::person::{ListPersons, Person};
+use shared::{ListPersons, Person};
 
 pub async fn simple_index(data: web::Data<Mutex<AppState>>) -> String {
     let app_name = &data.lock().unwrap().app_name; // <- get app_name
