@@ -13,12 +13,8 @@ mod db_mongo;
 mod errors;
 mod person_handlers;
 
-// import des fichiers shared
-use shared::person;
-
 // import des fichiers internes
 use crate::db_mongo::*;
-use crate::errors::*;
 use crate::person_handlers::*;
 
 ///
@@ -88,7 +84,7 @@ mod tests {
     use actix_web::dev::Service;
     use actix_web::{http, test, web, App, Error};
 
-    use shared::person::Person;
+    use shared::Person;
 
     ///
     /// Test Ajouter une personne
